@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Run Main WebdriverIO Test only
-        run: npx wdio run ./wdio.conf.js --spec eCommerceE2E.js
+        run: npx wdio run wdio.conf.js 
 
       - name: Commit & Push changes
         run: |
