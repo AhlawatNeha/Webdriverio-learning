@@ -3,7 +3,11 @@ name: CI/CD Webdriverio
 on:
   push:
     branches:
-      - main  
+      - main 
+  workflow_dispatch:   
+  schedule:
+    - cron: '0 19 23 6 *'  # Run on June 23rd at 19:00 UTC 
+
 
 jobs:
   auto-push:
