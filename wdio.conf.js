@@ -54,7 +54,7 @@ exports.config = {
         browserName: 'chrome',
         'goog:chromeOptions': {
             args: [
-                
+                '--headless=new',           // Use new headless mode
                 '--disable-gpu',
                 '--no-sandbox',
                 '--disable-dev-shm-usage',
