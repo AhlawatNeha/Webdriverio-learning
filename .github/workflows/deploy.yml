@@ -6,7 +6,7 @@ on:
       - main 
   workflow_dispatch:   
   schedule:
-    - cron: '0 12 24 6 *'  # Run on June 23rd at 19:00 UTC 
+    - cron: '0 12 24 6 *'  
 
 
 jobs:
